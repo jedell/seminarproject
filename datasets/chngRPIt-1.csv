@@ -1,0 +1,28 @@
+                      OLS Regression Results                     
+Dep. Variable:   ,formrate        ,  R-squared:         ,   0.775
+Model:           ,OLS             ,  Adj. R-squared:    ,   0.760
+Method:          ,Least Squares   ,  F-statistic:       ,   50.33
+Date:            ,Fri, 07 May 2021,  Prob (F-statistic):,2.67e-30
+Time:            ,14:12:11        ,  Log-Likelihood:    ,  87.830
+No. Observations:,   110          ,  AIC:               ,  -159.7
+Df Residuals:    ,   102          ,  BIC:               ,  -138.1
+Df Model:        ,     7          ,                     ,        
+Covariance Type: ,nonrobust       ,                     ,        
+               ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
+const          ,    5.0598,    0.542,    9.328, 0.000,    3.984,    6.136
+chngUt-1       ,   -0.2876,    0.044,   -6.585, 0.000,   -0.374,   -0.201
+chngaaa-tr10t-1,   -0.1148,    0.058,   -1.969, 0.052,   -0.230,    0.001
+tobQt-3        ,    0.0024,    0.001,    3.589, 0.001,    0.001,    0.004
+DfASB1         ,   -0.2849,    0.057,   -5.002, 0.000,   -0.398,   -0.172
+DfASB2         ,   -0.0805,    0.081,   -0.994, 0.323,   -0.241,    0.080
+regpercapt-1   ,   -0.0039,    0.001,   -3.840, 0.000,   -0.006,   -0.002
+chngRPIt-1     ,    0.0003,    0.000,    1.551, 0.124,-9.36e-05,    0.001
+Omnibus:      , 3.233,  Durbin-Watson:     ,   1.162
+Prob(Omnibus):, 0.199,  Jarque-Bera (JB):  ,   2.695
+Skew:         , 0.367,  Prob(JB):          ,   0.260
+Kurtosis:     , 3.223,  Cond. No.          ,2.73e+04
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.73e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.

@@ -1,0 +1,31 @@
+                      OLS Regression Results                     
+Dep. Variable:   ,births          ,  R-squared:         ,   0.894
+Model:           ,OLS             ,  Adj. R-squared:    ,   0.883
+Method:          ,Least Squares   ,  F-statistic:       ,   82.66
+Date:            ,Mon, 03 May 2021,  Prob (F-statistic):,3.27e-43
+Time:            ,11:36:21        ,  Log-Likelihood:    , -348.45
+No. Observations:,   109          ,  AIC:               ,   718.9
+Df Residuals:    ,    98          ,  BIC:               ,   748.5
+Df Model:        ,    10          ,                     ,        
+Covariance Type: ,nonrobust       ,                     ,        
+                      ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
+const                 ,  267.9507,   38.303,    6.996, 0.000,  191.940,  343.961
+aaa                   ,   -7.4193,    4.342,   -1.709, 0.091,  -16.035,    1.197
+baa                   ,    1.9155,    2.661,    0.720, 0.473,   -3.365,    7.196
+tr10                  ,    4.4697,    2.041,    2.190, 0.031,    0.419,    8.520
+U                     ,   -6.9376,    0.935,   -7.420, 0.000,   -8.793,   -5.082
+regulations per capita,   -0.1739,    0.065,   -2.661, 0.009,   -0.304,   -0.044
+tobins q              ,    0.0056,    0.053,    0.104, 0.917,   -0.100,    0.112
+DfASB1                ,    4.5683,    5.200,    0.879, 0.382,   -5.750,   14.887
+DfASB2                ,    5.9839,    4.965,    1.205, 0.231,   -3.869,   15.837
+NFB R output ph       ,    1.0394,    0.152,    6.817, 0.000,    0.737,    1.342
+ULQELP01USQ657S       ,   -2.4699,    1.229,   -2.010, 0.047,   -4.908,   -0.032
+Omnibus:      ,12.192,  Durbin-Watson:     ,   1.740
+Prob(Omnibus):, 0.002,  Jarque-Bera (JB):  ,  14.322
+Skew:         , 0.645,  Prob(JB):          ,0.000776
+Kurtosis:     , 4.220,  Cond. No.          ,3.51e+04
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.51e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.

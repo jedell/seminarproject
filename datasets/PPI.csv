@@ -1,0 +1,25 @@
+                      OLS Regression Results                     ,,,,,,
+Dep. Variable:   ,formrate        ,,,,,
+Model:           ,OLS             ,,,,,
+Method:          ,Least Squares   ,  F-statistic:       ,57.99,,,
+  R-squared:         ,0.799,  Prob (F-statistic):,9.71E-33,,,
+  Adj. R-squared:    ,0.785,  Log-Likelihood:    ,93.966,,,
+No. Observations:,110,  AIC:               ,-171.9,  BIC:               ,-150.3,
+               ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
+const          ,4.1805,0.572,7.313,0,3.047,5.314
+chngUt-1       ,-0.2495,0.043,-5.838,0,-0.334,-0.165
+chngaaa-tr10t-1,-0.1183,0.055,-2.152,0.034,-0.227,-0.009
+tobQt-3        ,0.0028,0.001,4.465,0,0.002,0.004
+DfASB1         ,-0.1946,0.056,-3.465,0.001,-0.306,-0.083
+DfASB2         ,-0.0392,0.076,-0.516,0.607,-0.19,0.111
+regpercapt-1   ,-0.0013,0.001,-1.098,0.275,-0.004,0.001
+PITGCG01USQ661N,-0.0067,0.002,-3.838,0,-0.01,-0.003
+Omnibus:      ,4.551,  Durbin-Watson:     ,1.351,,,
+Prob(Omnibus):,0.103,  Jarque-Bera (JB):  ,4.092,,,
+Skew:         ,0.345,  Prob(JB):          ,0.129,,,
+Kurtosis:     ,3.646,  Cond. No.          ,3.06E+04,,,
+,,,,,,
+Notes:,,,,,,
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.,,,,,,
+[2] The condition number is large, 3.06e+04. This might indicate that there are,,,,,
+strong multicollinearity or other numerical problems.,,,,,,

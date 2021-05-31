@@ -1,0 +1,29 @@
+                      OLS Regression Results                     
+Dep. Variable:   ,births          ,  R-squared:         ,   0.842
+Model:           ,OLS             ,  Adj. R-squared:    ,   0.829
+Method:          ,Least Squares   ,  F-statistic:       ,   66.67
+Date:            ,Mon, 03 May 2021,  Prob (F-statistic):,1.17e-36
+Time:            ,11:27:16        ,  Log-Likelihood:    , -370.17
+No. Observations:,   109          ,  AIC:               ,   758.3
+Df Residuals:    ,   100          ,  BIC:               ,   782.6
+Df Model:        ,     8          ,                     ,        
+Covariance Type: ,nonrobust       ,                     ,        
+                      ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
+const                 ,  336.0562,   43.984,    7.640, 0.000,  248.793,  423.320
+aaa                   ,  -19.3770,    4.783,   -4.051, 0.000,  -28.867,   -9.888
+baa                   ,    8.0729,    3.029,    2.665, 0.009,    2.064,   14.082
+tr10                  ,    3.7457,    2.453,    1.527, 0.130,   -1.120,    8.612
+U                     ,   -8.9017,    1.044,   -8.523, 0.000,  -10.974,   -6.830
+regulations per capita,   -0.0484,    0.075,   -0.643, 0.522,   -0.198,    0.101
+tobins q              ,   -0.0337,    0.063,   -0.535, 0.594,   -0.159,    0.091
+DfASB1                ,   12.2437,    6.103,    2.006, 0.048,    0.136,   24.351
+DfASB2                ,    6.7117,    5.996,    1.119, 0.266,   -5.185,   18.608
+Omnibus:      , 0.804,  Durbin-Watson:     ,   1.305
+Prob(Omnibus):, 0.669,  Jarque-Bera (JB):  ,   0.408
+Skew:         ,-0.103,  Prob(JB):          ,   0.816
+Kurtosis:     , 3.217,  Cond. No.          ,3.29e+04
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.29e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.

@@ -1,0 +1,30 @@
+                      OLS Regression Results                     
+Dep. Variable:   ,births          ,  R-squared:         ,   0.843
+Model:           ,OLS             ,  Adj. R-squared:    ,   0.829
+Method:          ,Least Squares   ,  F-statistic:       ,   59.21
+Date:            ,Mon, 03 May 2021,  Prob (F-statistic):,6.79e-36
+Time:            ,19:56:39        ,  Log-Likelihood:    , -369.74
+No. Observations:,   109          ,  AIC:               ,   759.5
+Df Residuals:    ,    99          ,  BIC:               ,   786.4
+Df Model:        ,     9          ,                     ,        
+Covariance Type: ,nonrobust       ,                     ,        
+                      ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
+const                 ,  322.8555,   46.529,    6.939, 0.000,  230.532,  415.179
+aaa                   ,  -19.6742,    4.801,   -4.098, 0.000,  -29.199,  -10.149
+baa                   ,    9.6160,    3.505,    2.744, 0.007,    2.662,   16.570
+tr10                  ,    2.6442,    2.757,    0.959, 0.340,   -2.826,    8.115
+U                     ,   -9.2503,    1.118,   -8.271, 0.000,  -11.470,   -7.031
+regulations per capita,   -0.0256,    0.080,   -0.321, 0.749,   -0.184,    0.133
+tobins q              ,   -0.0405,    0.064,   -0.637, 0.525,   -0.167,    0.086
+DfASB1                ,   11.7910,    6.131,    1.923, 0.057,   -0.375,   23.957
+DfASB2                ,    5.7178,    6.109,    0.936, 0.352,   -6.404,   17.839
+PRMNTO01USQ657S       ,    0.8130,    0.926,    0.878, 0.382,   -1.024,    2.650
+Omnibus:      , 1.430,  Durbin-Watson:     ,   1.362
+Prob(Omnibus):, 0.489,  Jarque-Bera (JB):  ,   0.924
+Skew:         ,-0.156,  Prob(JB):          ,   0.630
+Kurtosis:     , 3.325,  Cond. No.          ,3.47e+04
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.47e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
